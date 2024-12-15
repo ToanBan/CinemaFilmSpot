@@ -1,0 +1,231 @@
+.hover:hover{
+    color: red;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);  
+}
+
+.relative{
+    position: relative;
+}
+
+
+.absolute{
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.img{
+    height: 250px;
+    width: 185px;
+    object-fit:cover;
+}
+
+.img-hover {
+    transition: transform 0.3s ease-in-out;
+}
+
+.img-hover:hover,
+.img-hover.active {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+@keyframes scaleUp {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+.button-container{
+    position: absolute;
+    bottom: 10px;
+    opacity: 0;
+}
+
+.img-hover:hover .button-container{
+    opacity: 1;
+}
+
+.button{
+    padding: 6px 16px;
+    border-radius: 4px;
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+.button:hover{
+    background-color: black;
+    color: white;
+    animation-name: buttonhover;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+}
+  
+@keyframes buttonhover {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.1);
+    }
+}
+
+.container-flex {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.movie-list {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+
+
+.button-next {
+    position: absolute;
+    right: 0;
+    top: 130%;
+}
+
+.button-prev {
+    position: absolute;
+    left: 0;
+    top: 130%;
+}
+
+
+.button-nextt {
+    position: absolute;
+    right: 0;
+    top: 180%;
+}
+
+.button-prevv {
+    position: absolute;
+    left: 0;
+    top: 180%;
+}
+
+.square{
+    width: 280px;
+    height: 150px;
+    border-radius: 4px;
+    transition: transform 0.3s ease;
+    opacity: 0.95;
+    color: aliceblue;
+}
+
+
+
+.square:hover{
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.square-text{
+    text-align: center;
+    line-height: 150px;
+}
+
+.ms-full{
+    margin-left:300px;
+}
+
+.icon-search{
+    padding: 15px 25px;
+    background-color: #130d14;
+    outline: none;
+    border-radius: 30px;
+}
+
+.icon-search::placeholder {
+    color: white; 
+    opacity: 1;   
+}
+
+.icon-search:focus {
+    background-color: #130d14; 
+    outline: none; 
+    border: none;
+    color: white; 
+}
+
+.border-modal{
+    border-bottom:1px solid #ccc;
+}
+
+.text-title{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.square-sm{
+    width: 60px;
+    height: 60px;
+    background-color: aquamarine;
+    border-radius: 100%;
+}
+
+.fs-title{
+    font-size: 20px;
+    font-weight: 400;
+    font-style: oblique;
+}
+
+.text-chair{
+    line-height:60px;
+    text-align: center;
+}
+
+.text-ssm{
+    font-size: 14px;
+    padding: 11px;
+}
+
+.nav-div{
+    width: 240px;
+    margin-left: 10px;
+}
+
+.nav-item{
+    transition: all 0.3s ease;
+    transform: translateX(0);
+}
+
+.nav-item.active{
+    transform: translateX(10px);
+    background-color: #0085DB1F;
+    border-radius: 30px;
+}
+
+.toolbar{
+    height: 70px;
+    line-height: 70px;
+    border-radius: 30px;
+}
+
+.text-title{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.name-item{
+    color: white;
+    font-size: 24px;
+}
+
+
+.item-right{
+    position: relative;
+}

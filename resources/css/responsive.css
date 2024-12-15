@@ -1,0 +1,148 @@
+@media (max-width: 570px){
+
+    .root {
+        overflow: hidden;
+    }
+
+    .img-sm{
+        height: auto !important;
+    }
+
+    .absolute-sm{
+        font-size: 16px !important;
+    }
+
+    .bg-image{
+        height: auto !important;
+    }
+
+    .search-sm{
+        width: auto !important;
+    }
+
+    .col-sm-2.img-hover {
+        margin: 0 10px;
+    }
+
+    .img {
+        height: 159px;
+        width: 110px;
+        object-fit: cover;
+    }
+
+    li.nav-item.ms-auto {
+        position: absolute !important;
+        right: 10px;
+        top: -11px;
+    }
+
+    .d-flex {
+        flex-direction: column-reverse;
+        flex-wrap: wrap; 
+        flex-direction: row-reverse;
+        justify-content: space-around
+    }
+
+    .icon-next-prev{
+        display: none;
+    }
+    
+    p.text-white {
+        font-size: 13px;
+    }
+    img.mt-3.rounded.event {
+        width: 190px;
+    }  
+}
+
+@media (min-width: 571px) and (max-width: 768px) {
+    .img-sm{
+        height: auto !important;
+    }
+
+    .absolute-sm{
+        font-size: 22px !important;
+    }
+
+    .bg-image.border.rounded.mt-3.relative {
+        height: auto !important;
+    }
+
+    .img {
+        height: 159px;
+        width: 110px;
+        object-fit: cover;
+    }
+
+    .icon-next-prev{
+        display: none;
+    }
+
+    .col-sm-2 {
+        flex: 0 0 auto;
+        width: 25.666667%;
+    }
+
+    
+    .d-flex {
+        display: flex !important;
+        flex-wrap: wrap;
+       
+    }
+
+    .col-sm-3 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+
+    
+    
+}
+
+@media (min-width:769px) and (max-width: 992px){
+    .img-sm{
+        height: auto !important;
+    }
+
+    .bg-image.border.rounded.mt-3.relative {
+        height: auto !important;
+    }
+
+    .absolute-sm{
+        font-size: 30px !important;
+    }
+
+    .col-sm-2 {
+        flex: 0 0 auto;
+        width: 29.666667%;
+    }
+
+    img.mt-3.rounded.event {
+        width: 161px;
+    }
+    
+}
+
+
+@media (min-width: 993px) and (max-width: 1285px) {
+    .img-sm{
+        height: auto !important;
+    }
+
+    .absolute-sm{
+        font-size: 33px !important;
+    }
+
+    .bg-image.border.rounded.mt-3.relative {
+        height: auto !important;
+    }
+
+    .col-sm-2 {
+        flex: 0 0 auto;
+        width: 21.666667%;
+    }
+
+    img.mt-3.rounded.event {
+        width: 220px;
+    }
+}
